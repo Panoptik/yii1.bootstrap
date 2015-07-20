@@ -3,6 +3,8 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" type="image/x-icon" href="<?=Yii::app()->baseUrl;?>/favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="<?=Yii::app()->baseUrl;?>/favicon.ico" />
 	<meta name="language" content="en">
     <?php Yii::app()->bootstrap->register(); ?>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
