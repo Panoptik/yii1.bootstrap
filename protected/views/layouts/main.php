@@ -6,6 +6,8 @@
 	<meta name="language" content="en">
     <?php Yii::app()->bootstrap->register(); ?>
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+    <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/static/css/theme-custom.css" />
+    <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/static/css/custom.css" />
 </head>
 
 <body>
